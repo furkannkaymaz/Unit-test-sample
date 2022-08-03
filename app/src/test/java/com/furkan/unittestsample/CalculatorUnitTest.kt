@@ -11,6 +11,7 @@ class CalculatorUnitTest {
         assertEquals(20,result)
     }
 
+
     @Test
     fun subtractTest(){
         val calculator = Calculator()
@@ -40,7 +41,7 @@ class CalculatorUnitTest {
 
     @Test
     fun isItEvenNumber(){
-        assertEquals(false,Calculator().isItEvenNumber(5))
+        assertEquals("Bu bir tek sayıdır",true,Calculator().isItEvenNumber(5))
     }
 
 }

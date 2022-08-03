@@ -1,5 +1,9 @@
 package com.furkan.unittestsample
 
+import android.text.TextUtils
+import java.util.regex.Matcher
+import java.util.regex.Pattern
+
 class Calculator {
     fun add(a: Int, b: Int): Int {
         return a + b
@@ -24,4 +28,7 @@ class Calculator {
     fun isItEvenNumber(value1 :Int) : Boolean{
      return value1 / 2 == 0
     }
+
+
 }
+

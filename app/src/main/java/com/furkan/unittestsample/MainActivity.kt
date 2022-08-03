@@ -3,6 +3,7 @@ package com.furkan.unittestsample
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.util.Patterns
 import kotlin.math.log
 
 class MainActivity : AppCompatActivity() {
@@ -13,5 +14,7 @@ class MainActivity : AppCompatActivity() {
         val calculator = Calculator()
         val result = calculator.add(15,5)
         Log.d("result",result.toString())
+
+
     }
 }
